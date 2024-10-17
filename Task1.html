@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>todo </title>
+</head>
+
+<body>
+  <script>
+    let list = [];
+    function add(todo) {
+      list.push(todo);
+    }
+
+    function get() {
+      return list;
+    }
+
+    add("dinner");
+    add("js");
+
+    console.log(get());
+
+  </script>
+</body>
+
+</html>
